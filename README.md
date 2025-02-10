@@ -77,15 +77,15 @@ Cliente - Veículo: Um cliente pode ter vários veículos, mas cada veículo per
 
 Relacionamento: 1:N (Um para Muitos)
 
-## Veículo - Ordem de Serviço: Um veículo pode ter várias ordens de serviço, mas cada ordem de serviço refere-se a um único veículo.
+Veículo - Ordem de Serviço: Um veículo pode ter várias ordens de serviço, mas cada ordem de serviço refere-se a um único veículo.
 
 Relacionamento: 1:N (Um para Muitos)
 
-## Ordem de Serviço - Mecânico: Uma ordem de serviço pode ser executada por um ou mais mecânicos, e um mecânico pode trabalhar em várias ordens de serviço.
+Ordem de Serviço - Mecânico: Uma ordem de serviço pode ser executada por um ou mais mecânicos, e um mecânico pode trabalhar em várias ordens de serviço.
 
 Relacionamento: N:M (Muitos para Muitos)
 
-## Ordem de Serviço - Serviço: Uma ordem de serviço pode incluir vários serviços, e cada serviço pode ser parte de várias ordens de serviço.
+Ordem de Serviço - Serviço: Uma ordem de serviço pode incluir vários serviços, e cada serviço pode ser parte de várias ordens de serviço.
 
 Relacionamento: N:M (Muitos para Muitos)
 
